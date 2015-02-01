@@ -14,8 +14,7 @@ class TovarController < ApplicationController
 
   def new
   	@tovar = Tovar.new
-  	@tovar.save
-  	render :edit  	
+  	#render :edit  	
   end
 
   def update
